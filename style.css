@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    text-align: center;
+    
+}
+ table , th , tr , td{
+    
+    border: 1px solid green ; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+ }
+
+ body{
+    padding: 5rem 20rem;
+    background-color: rgb(46, 41, 98);
+    color: seashell;
+    padding-bottom: 4rem;
+ }
+
+ .cash {
+    padding: 1rem;
+ }
+
+ #checkBtn
+ {
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    width: 30rem;
+    margin-left: 10rem;background-color:  rgb(244, 96, 54)
+ } 
+ 
+ #billAmount
+ {
+    padding: 1rem;
+    border-radius: 0.5rem;
+ }
+ #cashGiven{
+   padding: 1rem;
+   border-radius: 0.5rem;
+ }
+
+h1{
+   text-align: center;
+  padding-bottom: 2rem;
+  font-weight: bolder;font-style: italic;
+  font-size: 3rem;
+}
+#caption{
+   padding: 1rem;
+}
