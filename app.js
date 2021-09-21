@@ -7,7 +7,7 @@ const availableNotes = [2000, 1000, 500, 100, 50, 20, 10, 5, 1];
 checkBtn.addEventListener("click", function clickEventHandler() {
   message.style.display = "none";
   if (billAmount.value > 0) {
-    if (cashGiven.value >= billAmount.value) {
+    if (cashGiven.value > billAmount.value) {
       const amountToReturn = cashGiven.value - billAmount.value;
       calculateChange(amountToReturn);
     } else {
