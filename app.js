@@ -12,10 +12,15 @@ checkBtn.addEventListener("click", function clickEventHandler() {
     if (Number(cashGiven.value) > Number(billAmount.value)) {
       const amountToReturn = Number(cashGiven.value) - Number(billAmount.value);
       calculateChange(amountToReturn);
-    } else {
+    } else if(Number(billAmount.value) === Number(cashGiven.value)){
+          showMessage('No pain no gain ')}
+          else {
       showMessage("The Bill amount can not be greater than cash amount  ");
     }
-  } else {
+  
+  }
+  
+  else {
     alert("Invalid Amont , Values must be positive or greater than zero");
   }
 });
